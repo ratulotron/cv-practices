@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Image	../test_tesseract.py	/^from PIL import Image$/;"	kind:namespace	line:2
+ap	../test_tesseract.py	/^ap = argparse.ArgumentParser()$/;"	kind:variable	line:9
+argparse	../test_tesseract.py	/^import argparse$/;"	kind:namespace	line:4
+args	../test_tesseract.py	/^args = vars(ap.parse_args())$/;"	kind:variable	line:14
+cv2	../test_tesseract.py	/^import cv2$/;"	kind:namespace	line:5
+help	../test_tesseract.py	/^	help="path to input image to be OCR'd")$/;"	kind:variable	line:11
+help	../test_tesseract.py	/^	help="type of preprocessing to be done")$/;"	kind:variable	line:13
+os	../test_tesseract.py	/^import os$/;"	kind:namespace	line:6
+pytesseract	../test_tesseract.py	/^import pytesseract$/;"	kind:namespace	line:3
+test_tesseract.py	../test_tesseract.py	1;"	kind:file	line:1

@@ -4,13 +4,27 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-Image	../test_tesseract.py	/^from PIL import Image$/;"	kind:namespace	line:2
-ap	../test_tesseract.py	/^ap = argparse.ArgumentParser()$/;"	kind:variable	line:9
-argparse	../test_tesseract.py	/^import argparse$/;"	kind:namespace	line:4
-args	../test_tesseract.py	/^args = vars(ap.parse_args())$/;"	kind:variable	line:14
-cv2	../test_tesseract.py	/^import cv2$/;"	kind:namespace	line:5
-help	../test_tesseract.py	/^	help="path to input image to be OCR'd")$/;"	kind:variable	line:11
-help	../test_tesseract.py	/^	help="type of preprocessing to be done")$/;"	kind:variable	line:13
-os	../test_tesseract.py	/^import os$/;"	kind:namespace	line:6
-pytesseract	../test_tesseract.py	/^import pytesseract$/;"	kind:namespace	line:3
+FILENAME	../test_tesseract.py	/^FILENAME = 'shapes_small.png'$/;"	kind:variable	line:7
+Image	../test_tesseract.py	/^from PIL import Image$/;"	kind:namespace	line:1
+builder	../test_tesseract.py	/^    builder=pyocr.builders.TextBuilder()$/;"	kind:variable	line:30
+builders	../test_tesseract.py	/^import pyocr.builders$/;"	kind:namespace	line:5
+characters	../random_generator.py	/^characters = [$/;"	kind:variable	line:3
+create_line	../random_generator.py	/^def create_line(line_length, characters):$/;"	kind:function	line:19
+generated_text	../random_generator.py	/^generated_text = ""$/;"	kind:variable	line:17
+lang	../test_tesseract.py	/^    lang=lang,$/;"	kind:variable	line:29
+lang	../test_tesseract.py	/^lang = langs[0]$/;"	kind:variable	line:20
+langs	../test_tesseract.py	/^langs = tool.get_available_languages()$/;"	kind:variable	line:18
+line_length	../random_generator.py	/^line_length = 5$/;"	kind:variable	line:14
+lines_number	../random_generator.py	/^lines_number = 40$/;"	kind:variable	line:15
+paragraph	../random_generator.py	/^  paragraph = paragraph + "\\n"$/;"	kind:variable	line:32
+paragraph	../random_generator.py	/^  paragraph = paragraph + create_line(line_length, characters)$/;"	kind:variable	line:31
+paragraph	../random_generator.py	/^paragraph = ""$/;"	kind:variable	line:29
+pyocr	../test_tesseract.py	/^import pyocr$/;"	kind:namespace	line:4
+pyocr	../test_tesseract.py	/^import pyocr.builders$/;"	kind:namespace	line:5
+random	../random_generator.py	/^import random$/;"	kind:namespace	line:1
+random_generator.py	../random_generator.py	1;"	kind:file	line:1
+sys	../test_tesseract.py	/^import sys$/;"	kind:namespace	line:2
 test_tesseract.py	../test_tesseract.py	1;"	kind:file	line:1
+tool	../test_tesseract.py	/^tool = tools[0]$/;"	kind:variable	line:14
+tools	../test_tesseract.py	/^tools = pyocr.get_available_tools()$/;"	kind:variable	line:9
+txt	../test_tesseract.py	/^txt = tool.image_to_string($/;"	kind:variable	line:27

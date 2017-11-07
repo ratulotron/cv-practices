@@ -1,12 +1,20 @@
 import random
 
 characters = [
-  '□',
+  # '□',
+  # '■', 
+  # '△', 
+  # '▲', 
+  # '▽', 
+  # '▼', 
+  # '○', 
+  # '●'
+  '□', 
   '■', 
   '△', 
   '▲', 
-  '▽', 
-  '▼', 
+  '⬡', 
+  '⬢', 
   '○', 
   '●'
 ]
@@ -24,16 +32,14 @@ def create_line(line_length, characters):
     line = line + char + " "
   return line
 
+def create_paragraph(number_of_lines):
+  paragraph = ""
+  for line in range(lines_number):
+    paragraph = paragraph + create_line(line_length, characters)
+    paragraph = paragraph + "\n"
+    if (line+1)%5 == 0:
+      paragraph = paragraph + "\n"
+  return paragraph
+
 # print(create_line(line_length, characters))
-
-paragraph = ""
-for line in range(lines_number):
-  paragraph = paragraph + create_line(line_length, characters)
-  paragraph = paragraph + "\n"
-
-print(paragraph)
-  
-
-# for line in lines_number:
-#   for entry in line_length:
-#     generated_text
+print(crea)

@@ -9,16 +9,14 @@ Image	../test_tesseract.py	/^from PIL import Image$/;"	kind:namespace	line:1
 builder	../test_tesseract.py	/^    builder=pyocr.builders.TextBuilder()$/;"	kind:variable	line:30
 builders	../test_tesseract.py	/^import pyocr.builders$/;"	kind:namespace	line:5
 characters	../random_generator.py	/^characters = [$/;"	kind:variable	line:3
-create_line	../random_generator.py	/^def create_line(line_length, characters):$/;"	kind:function	line:19
-generated_text	../random_generator.py	/^generated_text = ""$/;"	kind:variable	line:17
+create_line	../random_generator.py	/^def create_line(line_length, characters):$/;"	kind:function	line:27
+create_paragraph	../random_generator.py	/^def create_paragraph(number_of_lines):$/;"	kind:function	line:35
+generated_text	../random_generator.py	/^generated_text = ""$/;"	kind:variable	line:25
 lang	../test_tesseract.py	/^    lang=lang,$/;"	kind:variable	line:29
 lang	../test_tesseract.py	/^lang = langs[0]$/;"	kind:variable	line:20
 langs	../test_tesseract.py	/^langs = tool.get_available_languages()$/;"	kind:variable	line:18
-line_length	../random_generator.py	/^line_length = 5$/;"	kind:variable	line:14
-lines_number	../random_generator.py	/^lines_number = 40$/;"	kind:variable	line:15
-paragraph	../random_generator.py	/^  paragraph = paragraph + "\\n"$/;"	kind:variable	line:32
-paragraph	../random_generator.py	/^  paragraph = paragraph + create_line(line_length, characters)$/;"	kind:variable	line:31
-paragraph	../random_generator.py	/^paragraph = ""$/;"	kind:variable	line:29
+line_length	../random_generator.py	/^line_length = 5$/;"	kind:variable	line:22
+lines_number	../random_generator.py	/^lines_number = 40$/;"	kind:variable	line:23
 pyocr	../test_tesseract.py	/^import pyocr$/;"	kind:namespace	line:4
 pyocr	../test_tesseract.py	/^import pyocr.builders$/;"	kind:namespace	line:5
 random	../random_generator.py	/^import random$/;"	kind:namespace	line:1

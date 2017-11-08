@@ -53,7 +53,7 @@ defmodule RandomGenerator do
     ]
     # show_chars(characters)
     # characters |> Enum.random |> IO.puts
-    create_line(characters, 5)
+    characters |> create_line(5) |> IO.puts
   end
 
   # def random_character(characters) do
@@ -76,3 +76,5 @@ defmodule RandomGenerator do
   #   create_line("", characters, 5) |> IO.puts
   # end
 end
+
+RandomGenerator.main()

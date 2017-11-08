@@ -4,7 +4,7 @@ import sys
 import pyocr
 import pyocr.builders
 
-FILENAME = 'shapes_small.png'
+FILENAME = 'circle.zap.exp0.tif'
 
 tools = pyocr.get_available_tools()
 if len(tools) == 0:

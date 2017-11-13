@@ -24,6 +24,10 @@ class DataGenerator:
   def create_block(self):
     return "\n".join([create_row(characters) for n in range(5)])
 
+  def make(self):
+    pass
+    
+
   def create_paragraph(number_of_lines, line_length, characters):
     paragraph = ""
     for line in range(number_of_lines):
